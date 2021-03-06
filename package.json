@@ -1,0 +1,42 @@
+{
+  "name": "test-react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@emotion/react": "11.1.5",
+    "@emotion/styled": "11.1.5",
+    "@testing-library/jest-dom": "5.11.9",
+    "@testing-library/react": "11.2.5",
+    "@testing-library/user-event": "12.8.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.0",
+    "tailwindcss": "2.0.3",
+    "twin.macro": "2.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --watch",
+    "test:coverage": "jest",
+    "eject": "react-scripts eject"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

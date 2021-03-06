@@ -1,0 +1,8 @@
+@tailwind base; /* Preflight will be injected here */
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
